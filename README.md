@@ -1,5 +1,9 @@
 # NyayaSaar-LoRA
 
+```markdown id="95mxqb"
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Gy0746i2bcBedsCIYADdqN5lygJwIljJ?usp=sharing)
+```
+
 NyayaSaar-LoRA is a lightweight PEFT/QLoRA-based legal AI project focused on simplifying structured Indian legal reasoning into plain English.
 
 The project explores whether small language models can improve legal accessibility while preserving core reasoning structure using IRAC-style representations.
@@ -16,6 +20,14 @@ Indian legal documents are often difficult for ordinary citizens to understand b
 * and formal legal drafting styles.
 
 This project investigates whether parameter-efficient fine-tuning (LoRA/QLoRA) can help small language models simplify legal reasoning while preserving meaning.
+
+inIRAC Dataset
+        ↓
+IRAC Legal Reasoning
+        ↓
+LoRA Fine-Tuning
+        ↓
+Plain-English Legal Reasoning
 
 The focus is on:
 
@@ -119,6 +131,12 @@ pip install unsloth transformers datasets peft trl accelerate bitsandbytes texts
 
 ---
 
+## Project Status
+
+Early research prototype exploring legal reasoning simplification using PEFT/QLoRA.
+
+---
+
 ## Limitations
 
 This project is a research prototype and:
@@ -140,6 +158,15 @@ Potential future directions include:
 * readability evaluation metrics,
 * graph-grounded legal reasoning,
 * and retrieval-augmented explanation systems.
+
+---
+
+## Links
+
+- 🤗 Hugging Face Model: https://huggingface.co/joyboseroy/nyayasaar-lora
+- 📚 inIRAC Dataset: https://huggingface.co/datasets/joyboseroy/inIRAC
+- 📄 Research Paper: https://arxiv.org/abs/2605.14665
+- 📓 Google Colab Notebook: https://colab.research.google.com/drive/1Gy0746i2bcBedsCIYADdqN5lygJwIljJ?usp=sharing
 
 ---
 
