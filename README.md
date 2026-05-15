@@ -171,6 +171,7 @@ Potential future directions include:
 - 📚 inIRAC Dataset: https://huggingface.co/datasets/joyboseroy/inIRAC
 - 📄 Research Paper: https://arxiv.org/abs/2605.14665
 - 📓 Google Colab Notebook: https://colab.research.google.com/drive/1Gy0746i2bcBedsCIYADdqN5lygJwIljJ?usp=sharing
+- 🔗 Falkor-IRAC Repository: https://github.com/joyboseroy/falkor-irac
 
 ---
 
