@@ -1,8 +1,7 @@
+````markdown
 # NyayaSaar-LoRA
 
-```markdown id="95mxqb"
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Gy0746i2bcBedsCIYADdqN5lygJwIljJ?usp=sharing)
-```
 
 NyayaSaar-LoRA is a lightweight PEFT/QLoRA-based legal AI project focused on simplifying structured Indian legal reasoning into plain English.
 
@@ -14,20 +13,26 @@ The project explores whether small language models can improve legal accessibili
 
 Indian legal documents are often difficult for ordinary citizens to understand because of:
 
-* archaic legal terminology,
-* procedural complexity,
-* long sentence structures,
-* and formal legal drafting styles.
+- archaic legal terminology,
+- procedural complexity,
+- long sentence structures,
+- and formal legal drafting styles.
 
 This project investigates whether parameter-efficient fine-tuning (LoRA/QLoRA) can help small language models simplify legal reasoning while preserving meaning.
 
+---
+
+## Project Workflow
+
+```text
 inIRAC Dataset
         ↓
 IRAC Legal Reasoning
         ↓
-LoRA Fine-Tuning
+LoRA / QLoRA Fine-Tuning
         ↓
 Plain-English Legal Reasoning
+````
 
 The focus is on:
 
